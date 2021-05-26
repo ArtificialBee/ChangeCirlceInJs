@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.buttons {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  justify-content: space-between;
+}
+
+.color {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  border: 0;
+}
+
+.zoomIn,
+.zoomOut {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid rgb(136, 121, 121);
+  font-size: 1.5rem;
+}
